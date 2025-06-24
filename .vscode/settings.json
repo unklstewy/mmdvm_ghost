@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "span": "cpp",
+        "iterator": "cpp",
+        "vector": "cpp",
+        "__locale": "cpp",
+        "ios": "cpp"
+    },
+    "github.copilot.chat.agent.thinkingTool": true,
+    "chat.agent.maxRequests": 20
+}
