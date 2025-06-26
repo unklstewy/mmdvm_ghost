@@ -1,0 +1,802 @@
+I: 2025-06-26 05:20:56.436 Loading ID lookup table from /usr/local/etc/DMRIds.dat
+I: 2025-06-26 05:21:00.672 Loaded 287949 IDs to lookup table - /usr/local/etc/DMRIds.dat
+M: 2025-06-26 06:38:24.840 Mode set to Idle
+I: 2025-06-26 06:38:25.154 Stopped the DMR Id lookup reload thread
+I: 2025-06-26 06:38:25.155 Closing network connections
+M: 2025-06-26 06:38:25.155 DMR, Closing DMR Network
+I: 2025-06-26 06:38:25.155 Stopping protocol handlers
+I: 2025-06-26 06:38:25.155 MMDVMHost-20250620_WPSD has stopped
+M: 2025-06-26 06:38:25.155 Closing the MMDVM
+I: 2025-06-26 06:38:25.268 MMDVMHost-20250620_WPSD exited on receipt of SIGTERM
+I: 2025-06-26 06:39:06.560 This software is for use on amateur radio networks only,
+I: 2025-06-26 06:39:06.560 it is to be used for educational purposes only. Its use on
+I: 2025-06-26 06:39:06.560 commercial networks is strictly prohibited.
+I: 2025-06-26 06:39:06.560 Copyright(C) 2015-2025 by Jonathan Naylor, G4KLX and others
+I: 2025-06-26 06:39:06.560 MMDVMHost-20250620_WPSD is starting
+I: 2025-06-26 06:39:06.560 Built 08:58:42 Jun 20 2025 (GitID #07fba41)
+I: 2025-06-26 06:39:06.560 General Parameters
+I: 2025-06-26 06:39:06.561     Callsign: W3MSG
+I: 2025-06-26 06:39:06.561     Id: 3141966
+I: 2025-06-26 06:39:06.561     Duplex: yes
+I: 2025-06-26 06:39:06.561     Timeout: 240s
+I: 2025-06-26 06:39:06.561     D-Star: disabled
+I: 2025-06-26 06:39:06.561     DMR: enabled
+I: 2025-06-26 06:39:06.561     YSF: disabled
+I: 2025-06-26 06:39:06.561     P25: disabled
+I: 2025-06-26 06:39:06.561     NXDN: disabled
+I: 2025-06-26 06:39:06.561     M17: disabled
+I: 2025-06-26 06:39:06.561     POCSAG: disabled
+I: 2025-06-26 06:39:06.561     FM: disabled
+I: 2025-06-26 06:39:06.561     AX.25: disabled
+I: 2025-06-26 06:39:06.561 Modem Parameters
+I: 2025-06-26 06:39:06.561     Protocol: uart
+I: 2025-06-26 06:39:06.561     UART Port: /dev/ttyAMA0
+I: 2025-06-26 06:39:06.561     UART Speed: 115200
+I: 2025-06-26 06:39:06.561     RX Invert: no
+I: 2025-06-26 06:39:06.561     TX Invert: yes
+I: 2025-06-26 06:39:06.561     PTT Invert: no
+I: 2025-06-26 06:39:06.561     TX Delay: 100ms
+I: 2025-06-26 06:39:06.561     RX Offset: 0Hz
+I: 2025-06-26 06:39:06.561     TX Offset: 0Hz
+I: 2025-06-26 06:39:06.561     RX DC Offset: 0
+I: 2025-06-26 06:39:06.561     TX DC Offset: 0
+I: 2025-06-26 06:39:06.561     RF Level: 100.0%
+I: 2025-06-26 06:39:06.561     DMR Delay: 0 (0.0ms)
+I: 2025-06-26 06:39:06.561     RX Level: 50.0%
+I: 2025-06-26 06:39:06.561     CW Id TX Level: 50.0%
+I: 2025-06-26 06:39:06.561     D-Star TX Level: 50.0%
+I: 2025-06-26 06:39:06.561     DMR TX Level: 50.0%
+I: 2025-06-26 06:39:06.561     YSF TX Level: 50.0%
+I: 2025-06-26 06:39:06.561     P25 TX Level: 50.0%
+I: 2025-06-26 06:39:06.561     NXDN TX Level: 50.0%
+I: 2025-06-26 06:39:06.561     M17 TX Level: 50.0%
+I: 2025-06-26 06:39:06.562     POCSAG TX Level: 50.0%
+I: 2025-06-26 06:39:06.562     FM TX Level: 50.0%
+I: 2025-06-26 06:39:06.562     AX.25 TX Level: 50.0%
+I: 2025-06-26 06:39:06.562     TX Frequency: 438450000Hz (438450000Hz)
+I: 2025-06-26 06:39:06.562     Use COS as Lockout: no
+M: 2025-06-26 06:39:06.562 Opening the MMDVM
+I: 2025-06-26 06:39:08.576 MMDVM protocol version: 1, description: MMDVM_HS_Dual_Hat-v1.6.1 20231115_WPSD 14.7456MHz dual ADF7021 FW by CA6JAU, G4KLX, W0CHP. GitID #7e16099
+I: 2025-06-26 06:39:08.596 Display Parameters
+I: 2025-06-26 06:39:08.596     Type: OLED
+I: 2025-06-26 06:39:08.971 Opening network connections
+I: 2025-06-26 06:39:08.972 DMR Network Parameters
+I: 2025-06-26 06:39:08.972     Type: Gateway
+I: 2025-06-26 06:39:08.972     Remote Address: 127.0.0.1
+I: 2025-06-26 06:39:08.972     Remote Port: 62031
+I: 2025-06-26 06:39:08.972     Local Address: 127.0.0.1
+I: 2025-06-26 06:39:08.972     Local Port: 62032
+I: 2025-06-26 06:39:08.972     Jitter: 360ms
+I: 2025-06-26 06:39:08.972     Slot 1: enabled
+I: 2025-06-26 06:39:08.972     Slot 2: enabled
+I: 2025-06-26 06:39:08.972     Mode Hang: 20s
+I: 2025-06-26 06:39:08.972 Info Parameters
+I: 2025-06-26 06:39:08.972     Callsign: W3MSG
+I: 2025-06-26 06:39:08.972     RX Frequency: 433450000Hz
+I: 2025-06-26 06:39:08.973     TX Frequency: 438450000Hz
+I: 2025-06-26 06:39:08.973     Power: 1W
+M: 2025-06-26 06:39:08.973 DMR, Opening DMR Network
+I: 2025-06-26 06:39:08.973 Opening UDP port on 62032
+I: 2025-06-26 06:39:08.973 RSSI
+I: 2025-06-26 06:39:08.973     Mapping File: /usr/local/etc/RSSI.dat
+I: 2025-06-26 06:39:08.973 Loaded 14 RSSI data mapping points from /usr/local/etc/RSSI.dat
+I: 2025-06-26 06:39:08.973 DMR Id Lookups
+I: 2025-06-26 06:39:08.973     File: /usr/local/etc/DMRIds.dat
+I: 2025-06-26 06:39:08.973     Reload: 24 hours
+I: 2025-06-26 06:39:08.973 Loading ID lookup table from /usr/local/etc/DMRIds.dat
+I: 2025-06-26 06:39:14.399 Loaded 287949 IDs to lookup table - /usr/local/etc/DMRIds.dat
+I: 2025-06-26 06:39:14.399 Starting protocol handlers
+I: 2025-06-26 06:39:14.400 DMR RF Parameters
+I: 2025-06-26 06:39:14.400 Started the DMR Id lookup reload thread
+I: 2025-06-26 06:39:14.400     Id: 3141966
+I: 2025-06-26 06:39:14.400     Color Code: 1
+I: 2025-06-26 06:39:14.400     Self Only: no
+I: 2025-06-26 06:39:14.400     Embedded LC Only: no
+I: 2025-06-26 06:39:14.400     Dump Talker Alias Data: yes
+I: 2025-06-26 06:39:14.400     Prefixes: 0
+I: 2025-06-26 06:39:14.400     Source ID White List: 2
+I: 2025-06-26 06:39:14.400     Call Hang: 3s
+I: 2025-06-26 06:39:14.400     TX Hang: 4s
+I: 2025-06-26 06:39:14.400     Mode Hang: 20s
+I: 2025-06-26 06:39:14.400     OVCM: off
+I: 2025-06-26 06:39:14.400     DMR Roaming Beacons Type: off
+I: 2025-06-26 06:39:14.400 Remote Control Parameters
+I: 2025-06-26 06:39:14.400     Address: 127.0.0.1
+I: 2025-06-26 06:39:14.400     Port: 7642
+I: 2025-06-26 06:39:14.400 Opening UDP port on 7642
+I: 2025-06-26 06:39:14.401 Interfaces Info
+I: 2025-06-26 06:39:14.402     IPv4: lo:127.0.0.1
+I: 2025-06-26 06:39:14.402     IPv4: wlan0:192.168.1.230
+I: 2025-06-26 06:39:14.402     IPv6: lo:::1
+I: 2025-06-26 06:39:14.402     IPv6: wlan0:2600:1700:2770:7940::27
+I: 2025-06-26 06:39:14.402     IPv6: wlan0:2600:1700:2770:7940:2468:c00d:fd1c:ecec
+I: 2025-06-26 06:39:14.402     IPv6: wlan0:fe80::a50f:796b:793d:edb0%wlan0
+I: 2025-06-26 06:39:14.402     Default interface is : wlan0
+I: 2025-06-26 06:39:14.402     IP to show: wlan0:192.168.1.230
+M: 2025-06-26 06:39:14.514 Mode set to Idle
+I: 2025-06-26 06:39:14.514 MMDVMHost-20250620_WPSD is running
+M: 2025-06-26 14:28:21.354 Mode set to Idle
+I: 2025-06-26 14:28:21.837 Stopped the DMR Id lookup reload thread
+I: 2025-06-26 14:28:21.837 Closing network connections
+M: 2025-06-26 14:28:21.837 DMR, Closing DMR Network
+I: 2025-06-26 14:28:21.837 Stopping protocol handlers
+I: 2025-06-26 14:28:21.837 MMDVMHost-20250620_WPSD has stopped
+M: 2025-06-26 14:28:21.837 Closing the MMDVM
+I: 2025-06-26 14:28:21.950 MMDVMHost-20250620_WPSD exited on receipt of SIGTERM
+I: 2025-06-26 14:28:27.431 This software is for use on amateur radio networks only,
+I: 2025-06-26 14:28:27.432 it is to be used for educational purposes only. Its use on
+I: 2025-06-26 14:28:27.432 commercial networks is strictly prohibited.
+I: 2025-06-26 14:28:27.432 Copyright(C) 2015-2025 by Jonathan Naylor, G4KLX and others
+I: 2025-06-26 14:28:27.432 MMDVMHost-20250620_WPSD is starting
+I: 2025-06-26 14:28:27.432 Built 08:58:42 Jun 20 2025 (GitID #07fba41)
+I: 2025-06-26 14:28:27.432 General Parameters
+I: 2025-06-26 14:28:27.432     Callsign: W3MSG
+I: 2025-06-26 14:28:27.432     Id: 3141966
+I: 2025-06-26 14:28:27.432     Duplex: yes
+I: 2025-06-26 14:28:27.432     Timeout: 240s
+I: 2025-06-26 14:28:27.432     D-Star: disabled
+I: 2025-06-26 14:28:27.432     DMR: enabled
+I: 2025-06-26 14:28:27.432     YSF: disabled
+I: 2025-06-26 14:28:27.432     P25: disabled
+I: 2025-06-26 14:28:27.432     NXDN: disabled
+I: 2025-06-26 14:28:27.432     M17: disabled
+I: 2025-06-26 14:28:27.432     POCSAG: disabled
+I: 2025-06-26 14:28:27.432     FM: enabled
+I: 2025-06-26 14:28:27.432     AX.25: disabled
+I: 2025-06-26 14:28:27.432 Modem Parameters
+I: 2025-06-26 14:28:27.432     Protocol: uart
+I: 2025-06-26 14:28:27.432     UART Port: /dev/ttyAMA0
+I: 2025-06-26 14:28:27.432     UART Speed: 115200
+I: 2025-06-26 14:28:27.432     RX Invert: no
+I: 2025-06-26 14:28:27.432     TX Invert: yes
+I: 2025-06-26 14:28:27.432     PTT Invert: no
+I: 2025-06-26 14:28:27.432     TX Delay: 100ms
+I: 2025-06-26 14:28:27.433     RX Offset: 0Hz
+I: 2025-06-26 14:28:27.433     TX Offset: 0Hz
+I: 2025-06-26 14:28:27.433     RX DC Offset: 0
+I: 2025-06-26 14:28:27.433     TX DC Offset: 0
+I: 2025-06-26 14:28:27.433     RF Level: 100.0%
+I: 2025-06-26 14:28:27.433     DMR Delay: 0 (0.0ms)
+I: 2025-06-26 14:28:27.433     RX Level: 50.0%
+I: 2025-06-26 14:28:27.433     CW Id TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     D-Star TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     DMR TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     YSF TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     P25 TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     NXDN TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     M17 TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     POCSAG TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     FM TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     AX.25 TX Level: 50.0%
+I: 2025-06-26 14:28:27.433     TX Frequency: 438450000Hz (438450000Hz)
+I: 2025-06-26 14:28:27.433     Use COS as Lockout: no
+I: 2025-06-26 14:28:27.434 FM Parameters
+I: 2025-06-26 14:28:27.434     Callsign: W3MSG
+I: 2025-06-26 14:28:27.434     Callsign Speed: 20WPM
+I: 2025-06-26 14:28:27.434     Callsign Frequency: 1000Hz
+I: 2025-06-26 14:28:27.434     Callsign Time: 10mins
+I: 2025-06-26 14:28:27.434     Callsign Holdoff: 1/0
+I: 2025-06-26 14:28:27.434     Callsign High Level: 50.0%
+I: 2025-06-26 14:28:27.434     Callsign Low Level: 20.0%
+I: 2025-06-26 14:28:27.434     Callsign At Start: yes
+I: 2025-06-26 14:28:27.434     Callsign At End: yes
+I: 2025-06-26 14:28:27.434     Callsign At Latch: no
+I: 2025-06-26 14:28:27.434     RF Ack: K
+I: 2025-06-26 14:28:27.434     Ack Speed: 20WPM
+I: 2025-06-26 14:28:27.434     Ack Frequency: 1750Hz
+I: 2025-06-26 14:28:27.434     Ack Min Time: 4s
+I: 2025-06-26 14:28:27.434     Ack Delay: 1000ms
+I: 2025-06-26 14:28:27.434     Ack Level: 50.0%
+I: 2025-06-26 14:28:27.434     Timeout: 180s
+I: 2025-06-26 14:28:27.434     Timeout Level: 80.0%
+I: 2025-06-26 14:28:27.434     CTCSS Frequency: 94.8Hz
+I: 2025-06-26 14:28:27.434     CTCSS High Threshold: 30
+I: 2025-06-26 14:28:27.434     CTCSS Low Threshold: 20
+I: 2025-06-26 14:28:27.434     CTCSS Level: 20.0%
+I: 2025-06-26 14:28:27.434     Kerchunk Time: 0s
+I: 2025-06-26 14:28:27.434     Hang Time: 7s
+I: 2025-06-26 14:28:27.434     Access Mode: 1
+I: 2025-06-26 14:28:27.434     Link Mode: no
+I: 2025-06-26 14:28:27.434     COS Invert: no
+I: 2025-06-26 14:28:27.434     Noise Squelch: no
+I: 2025-06-26 14:28:27.434     RF Audio Boost: x1
+I: 2025-06-26 14:28:27.434     Max. Deviation Level: 90.0%
+I: 2025-06-26 14:28:27.434     Mode Hang: 300s
+M: 2025-06-26 14:28:27.434 Opening the MMDVM
+I: 2025-06-26 14:28:29.448 MMDVM protocol version: 1, description: MMDVM_HS_Dual_Hat-v1.6.1 20231115_WPSD 14.7456MHz dual ADF7021 FW by CA6JAU, G4KLX, W0CHP. GitID #7e16099
+E: 2025-06-26 14:28:29.499 Received a NAK to the SET_FM_PARAMS3 command from the modem
+I: 2025-06-26 14:30:16.284 This software is for use on amateur radio networks only,
+I: 2025-06-26 14:30:16.285 it is to be used for educational purposes only. Its use on
+I: 2025-06-26 14:30:16.285 commercial networks is strictly prohibited.
+I: 2025-06-26 14:30:16.285 Copyright(C) 2015-2025 by Jonathan Naylor, G4KLX and others
+I: 2025-06-26 14:30:16.285 MMDVMHost-20250620_WPSD is starting
+I: 2025-06-26 14:30:16.285 Built 08:58:42 Jun 20 2025 (GitID #07fba41)
+I: 2025-06-26 14:30:16.285 General Parameters
+I: 2025-06-26 14:30:16.285     Callsign: W3MSG
+I: 2025-06-26 14:30:16.285     Id: 3141966
+I: 2025-06-26 14:30:16.285     Duplex: yes
+I: 2025-06-26 14:30:16.285     Timeout: 240s
+I: 2025-06-26 14:30:16.285     D-Star: disabled
+I: 2025-06-26 14:30:16.285     DMR: enabled
+I: 2025-06-26 14:30:16.285     YSF: disabled
+I: 2025-06-26 14:30:16.285     P25: disabled
+I: 2025-06-26 14:30:16.285     NXDN: disabled
+I: 2025-06-26 14:30:16.285     M17: disabled
+I: 2025-06-26 14:30:16.285     POCSAG: disabled
+I: 2025-06-26 14:30:16.285     FM: enabled
+I: 2025-06-26 14:30:16.285     AX.25: disabled
+I: 2025-06-26 14:30:16.285 Modem Parameters
+I: 2025-06-26 14:30:16.285     Protocol: uart
+I: 2025-06-26 14:30:16.285     UART Port: /dev/ttyAMA0
+I: 2025-06-26 14:30:16.285     UART Speed: 115200
+I: 2025-06-26 14:30:16.285     RX Invert: no
+I: 2025-06-26 14:30:16.285     TX Invert: yes
+I: 2025-06-26 14:30:16.285     PTT Invert: no
+I: 2025-06-26 14:30:16.285     TX Delay: 100ms
+I: 2025-06-26 14:30:16.285     RX Offset: 0Hz
+I: 2025-06-26 14:30:16.285     TX Offset: 0Hz
+I: 2025-06-26 14:30:16.286     RX DC Offset: 0
+I: 2025-06-26 14:30:16.286     TX DC Offset: 0
+I: 2025-06-26 14:30:16.286     RF Level: 100.0%
+I: 2025-06-26 14:30:16.286     DMR Delay: 0 (0.0ms)
+I: 2025-06-26 14:30:16.286     RX Level: 50.0%
+I: 2025-06-26 14:30:16.286     CW Id TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     D-Star TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     DMR TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     YSF TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     P25 TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     NXDN TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     M17 TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     POCSAG TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     FM TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     AX.25 TX Level: 50.0%
+I: 2025-06-26 14:30:16.286     TX Frequency: 438450000Hz (438450000Hz)
+I: 2025-06-26 14:30:16.286     Use COS as Lockout: no
+I: 2025-06-26 14:30:16.287 FM Parameters
+I: 2025-06-26 14:30:16.287     Callsign: W3MSG
+I: 2025-06-26 14:30:16.287     Callsign Speed: 20WPM
+I: 2025-06-26 14:30:16.287     Callsign Frequency: 1000Hz
+I: 2025-06-26 14:30:16.287     Callsign Time: 10mins
+I: 2025-06-26 14:30:16.287     Callsign Holdoff: 1/0
+I: 2025-06-26 14:30:16.287     Callsign High Level: 50.0%
+I: 2025-06-26 14:30:16.287     Callsign Low Level: 20.0%
+I: 2025-06-26 14:30:16.287     Callsign At Start: yes
+I: 2025-06-26 14:30:16.287     Callsign At End: yes
+I: 2025-06-26 14:30:16.287     Callsign At Latch: no
+I: 2025-06-26 14:30:16.287     RF Ack: K
+I: 2025-06-26 14:30:16.287     Ack Speed: 20WPM
+I: 2025-06-26 14:30:16.287     Ack Frequency: 1750Hz
+I: 2025-06-26 14:30:16.287     Ack Min Time: 4s
+I: 2025-06-26 14:30:16.287     Ack Delay: 1000ms
+I: 2025-06-26 14:30:16.288     Ack Level: 50.0%
+I: 2025-06-26 14:30:16.288     Timeout: 180s
+I: 2025-06-26 14:30:16.288     Timeout Level: 80.0%
+I: 2025-06-26 14:30:16.288     CTCSS Frequency: 94.8Hz
+I: 2025-06-26 14:30:16.288     CTCSS High Threshold: 30
+I: 2025-06-26 14:30:16.288     CTCSS Low Threshold: 20
+I: 2025-06-26 14:30:16.288     CTCSS Level: 20.0%
+I: 2025-06-26 14:30:16.288     Kerchunk Time: 0s
+I: 2025-06-26 14:30:16.288     Hang Time: 7s
+I: 2025-06-26 14:30:16.288     Access Mode: 1
+I: 2025-06-26 14:30:16.288     Link Mode: no
+I: 2025-06-26 14:30:16.288     COS Invert: no
+I: 2025-06-26 14:30:16.288     Noise Squelch: no
+I: 2025-06-26 14:30:16.288     RF Audio Boost: x1
+I: 2025-06-26 14:30:16.288     Max. Deviation Level: 90.0%
+I: 2025-06-26 14:30:16.288     Mode Hang: 300s
+M: 2025-06-26 14:30:16.288 Opening the MMDVM
+I: 2025-06-26 14:30:18.302 MMDVM protocol version: 1, description: MMDVM_HS_Dual_Hat-v1.6.1 20231115_WPSD 14.7456MHz dual ADF7021 FW by CA6JAU, G4KLX, W0CHP. GitID #7e16099
+E: 2025-06-26 14:30:18.352 Received a NAK to the SET_FM_PARAMS3 command from the modem
+I: 2025-06-26 14:31:43.125 This software is for use on amateur radio networks only,
+I: 2025-06-26 14:31:43.125 it is to be used for educational purposes only. Its use on
+I: 2025-06-26 14:31:43.125 commercial networks is strictly prohibited.
+I: 2025-06-26 14:31:43.125 Copyright(C) 2015-2025 by Jonathan Naylor, G4KLX and others
+I: 2025-06-26 14:31:43.125 MMDVMHost-20250620_WPSD is starting
+I: 2025-06-26 14:31:43.125 Built 08:58:42 Jun 20 2025 (GitID #07fba41)
+I: 2025-06-26 14:31:43.125 General Parameters
+I: 2025-06-26 14:31:43.125     Callsign: W3MSG
+I: 2025-06-26 14:31:43.125     Id: 3141966
+I: 2025-06-26 14:31:43.125     Duplex: yes
+I: 2025-06-26 14:31:43.125     Timeout: 240s
+I: 2025-06-26 14:31:43.125     D-Star: disabled
+I: 2025-06-26 14:31:43.125     DMR: enabled
+I: 2025-06-26 14:31:43.125     YSF: disabled
+I: 2025-06-26 14:31:43.125     P25: disabled
+I: 2025-06-26 14:31:43.125     NXDN: disabled
+I: 2025-06-26 14:31:43.125     M17: disabled
+I: 2025-06-26 14:31:43.125     POCSAG: disabled
+I: 2025-06-26 14:31:43.125     FM: disabled
+I: 2025-06-26 14:31:43.125     AX.25: disabled
+I: 2025-06-26 14:31:43.125 Modem Parameters
+I: 2025-06-26 14:31:43.125     Protocol: uart
+I: 2025-06-26 14:31:43.126     UART Port: /dev/ttyAMA0
+I: 2025-06-26 14:31:43.126     UART Speed: 115200
+I: 2025-06-26 14:31:43.126     RX Invert: no
+I: 2025-06-26 14:31:43.126     TX Invert: yes
+I: 2025-06-26 14:31:43.126     PTT Invert: no
+I: 2025-06-26 14:31:43.126     TX Delay: 100ms
+I: 2025-06-26 14:31:43.126     RX Offset: 0Hz
+I: 2025-06-26 14:31:43.126     TX Offset: 0Hz
+I: 2025-06-26 14:31:43.126     RX DC Offset: 0
+I: 2025-06-26 14:31:43.126     TX DC Offset: 0
+I: 2025-06-26 14:31:43.126     RF Level: 100.0%
+I: 2025-06-26 14:31:43.126     DMR Delay: 0 (0.0ms)
+I: 2025-06-26 14:31:43.126     RX Level: 50.0%
+I: 2025-06-26 14:31:43.126     CW Id TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     D-Star TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     DMR TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     YSF TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     P25 TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     NXDN TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     M17 TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     POCSAG TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     FM TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     AX.25 TX Level: 50.0%
+I: 2025-06-26 14:31:43.126     TX Frequency: 438450000Hz (438450000Hz)
+I: 2025-06-26 14:31:43.126     Use COS as Lockout: no
+M: 2025-06-26 14:31:43.127 Opening the MMDVM
+I: 2025-06-26 14:31:45.144 MMDVM protocol version: 1, description: MMDVM_HS_Dual_Hat-v1.6.1 20231115_WPSD 14.7456MHz dual ADF7021 FW by CA6JAU, G4KLX, W0CHP. GitID #7e16099
+I: 2025-06-26 14:31:45.165 Display Parameters
+I: 2025-06-26 14:31:45.165     Type: OLED
+I: 2025-06-26 14:31:45.550 Opening network connections
+I: 2025-06-26 14:31:45.550 DMR Network Parameters
+I: 2025-06-26 14:31:45.550     Type: Gateway
+I: 2025-06-26 14:31:45.550     Remote Address: 127.0.0.1
+I: 2025-06-26 14:31:45.550     Remote Port: 62031
+I: 2025-06-26 14:31:45.550     Local Address: 127.0.0.1
+I: 2025-06-26 14:31:45.550     Local Port: 62032
+I: 2025-06-26 14:31:45.550     Jitter: 360ms
+I: 2025-06-26 14:31:45.550     Slot 1: enabled
+I: 2025-06-26 14:31:45.550     Slot 2: enabled
+I: 2025-06-26 14:31:45.550     Mode Hang: 20s
+I: 2025-06-26 14:31:45.551 Info Parameters
+I: 2025-06-26 14:31:45.551     Callsign: W3MSG
+I: 2025-06-26 14:31:45.551     RX Frequency: 433450000Hz
+I: 2025-06-26 14:31:45.551     TX Frequency: 438450000Hz
+I: 2025-06-26 14:31:45.551     Power: 1W
+M: 2025-06-26 14:31:45.551 DMR, Opening DMR Network
+I: 2025-06-26 14:31:45.551 Opening UDP port on 62032
+I: 2025-06-26 14:31:45.551 CW Id Parameters
+I: 2025-06-26 14:31:45.551     Time: 10 mins
+I: 2025-06-26 14:31:45.551     Callsign: W3MSG
+I: 2025-06-26 14:31:45.551 RSSI
+I: 2025-06-26 14:31:45.551     Mapping File: /usr/local/etc/RSSI.dat
+I: 2025-06-26 14:31:45.552 Loaded 14 RSSI data mapping points from /usr/local/etc/RSSI.dat
+I: 2025-06-26 14:31:45.552 DMR Id Lookups
+I: 2025-06-26 14:31:45.552     File: /usr/local/etc/DMRIds.dat
+I: 2025-06-26 14:31:45.552     Reload: 24 hours
+I: 2025-06-26 14:31:45.552 Loading ID lookup table from /usr/local/etc/DMRIds.dat
+I: 2025-06-26 14:31:51.732 Loaded 288006 IDs to lookup table - /usr/local/etc/DMRIds.dat
+I: 2025-06-26 14:31:51.733 Starting protocol handlers
+I: 2025-06-26 14:31:51.733 DMR RF Parameters
+I: 2025-06-26 14:31:51.733     Id: 3141966
+I: 2025-06-26 14:31:51.733     Color Code: 1
+I: 2025-06-26 14:31:51.733     Self Only: no
+I: 2025-06-26 14:31:51.733     Embedded LC Only: no
+I: 2025-06-26 14:31:51.733     Dump Talker Alias Data: yes
+I: 2025-06-26 14:31:51.733     Prefixes: 0
+I: 2025-06-26 14:31:51.733     Source ID White List: 2
+I: 2025-06-26 14:31:51.733     Call Hang: 3s
+I: 2025-06-26 14:31:51.733     TX Hang: 4s
+I: 2025-06-26 14:31:51.733 Started the DMR Id lookup reload thread
+I: 2025-06-26 14:31:51.733     Mode Hang: 20s
+I: 2025-06-26 14:31:51.734     OVCM: off
+I: 2025-06-26 14:31:51.734     DMR Roaming Beacons Type: off
+I: 2025-06-26 14:31:51.734 Remote Control Parameters
+I: 2025-06-26 14:31:51.734     Address: 127.0.0.1
+I: 2025-06-26 14:31:51.734     Port: 7642
+I: 2025-06-26 14:31:51.734 Opening UDP port on 7642
+I: 2025-06-26 14:31:51.735 Interfaces Info
+I: 2025-06-26 14:31:51.736     IPv4: lo:127.0.0.1
+I: 2025-06-26 14:31:51.737     IPv4: wlan0:192.168.1.230
+I: 2025-06-26 14:31:51.737     IPv6: lo:::1
+I: 2025-06-26 14:31:51.737     IPv6: wlan0:2600:1700:2770:7940::27
+I: 2025-06-26 14:31:51.737     IPv6: wlan0:2600:1700:2770:7940:2468:c00d:fd1c:ecec
+I: 2025-06-26 14:31:51.737     IPv6: wlan0:fe80::a50f:796b:793d:edb0%wlan0
+I: 2025-06-26 14:31:51.737     Default interface is : wlan0
+I: 2025-06-26 14:31:51.737     IP to show: wlan0:192.168.1.230
+M: 2025-06-26 14:31:51.851 Mode set to Idle
+I: 2025-06-26 14:31:51.851 MMDVMHost-20250620_WPSD is running
+M: 2025-06-26 14:32:12.293 Downlink Activate received from W3MSG
+M: 2025-06-26 14:32:12.294 Mode set to DMR
+M: 2025-06-26 14:32:12.904 DMR Slot 1, received RF voice header from W3MSG to TG 91
+M: 2025-06-26 14:32:13.132 DMR Slot 1, received RF end of voice transmission from W3MSG to TG 91, 0.4 seconds, BER: 1.2%, RSSI: -57/-55/-56 dBm
+M: 2025-06-26 14:32:13.828 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:32:13.924 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:32:14.654 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:32:16.096 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:32:33.668 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 19.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:32:37.106 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:32:37.875 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:33:11.400 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 34.4 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:33:12.736 DMR Slot 1, received network voice header from ON3YDM to TG 91
+M: 2025-06-26 14:33:12.770 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:33:14.639 DMR Slot 1, received network end of voice transmission from ON3YDM to TG 91, 2.2 seconds, 50% packet loss, BER: 0.4%
+M: 2025-06-26 14:33:14.980 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:33:15.011 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:33:15.745 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:33:17.422 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:33:26.566 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 11.7 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:33:38.827 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:33:39.922 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:33:54.802 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 16.1 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:33:57.833 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:33:58.982 DMR Slot 1, Talker Alias "MM7SVI Neal"
+M: 2025-06-26 14:34:05.238 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 7.7 seconds, 0% packet loss, BER: 0.1%
+M: 2025-06-26 14:34:07.331 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:34:08.073 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:34:48.064 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 40.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:34:50.849 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:34:51.963 DMR Slot 1, Talker Alias "MM7SVI Neal"
+M: 2025-06-26 14:35:05.785 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 15.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:35:11.793 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:35:12.924 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:35:25.199 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 13.6 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:35:32.178 DMR Slot 1, received network voice header from NK7A to TG 91
+M: 2025-06-26 14:35:34.077 DMR Slot 1, received network end of voice transmission from NK7A to TG 91, 2.1 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:35:35.657 DMR Slot 1, received network voice header from YG3BRB to TG 91
+M: 2025-06-26 14:35:36.089 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:35:36.815 DMR Slot 1, Talker Alias "YG3BRB "
+M: 2025-06-26 14:35:43.823 DMR Slot 1, received network end of voice transmission from YG3BRB to TG 91, 8.3 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:35:46.810 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:35:47.929 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:36:37.448 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 50.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:36:45.138 DMR Slot 1, received network voice header from YG3BRB to TG 91
+M: 2025-06-26 14:36:45.937 DMR Slot 1, Talker Alias "YG3BRB "
+M: 2025-06-26 14:37:18.283 DMR Slot 1, received network end of voice transmission from YG3BRB to TG 91, 34.1 seconds, 2% packet loss, BER: 0.0%
+M: 2025-06-26 14:37:22.047 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:37:22.828 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:38:14.940 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 53.0 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:38:20.585 DMR Slot 1, received network voice header from YG3BRB to TG 91
+M: 2025-06-26 14:38:21.703 DMR Slot 1, Talker Alias "YG3BRB "
+M: 2025-06-26 14:38:36.605 DMR Slot 1, received network end of voice transmission from YG3BRB to TG 91, 16.3 seconds, 6% packet loss, BER: 0.1%
+M: 2025-06-26 14:38:41.378 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:38:43.945 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:38:49.634 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 8.4 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:38:51.131 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:38:51.562 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:38:52.294 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:38:56.095 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 5.0 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:39:01.333 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:39:03.628 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:39:06.276 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 5.0 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:39:07.822 DMR Slot 1, received network voice header from YG3BRB to TG 91
+M: 2025-06-26 14:39:07.870 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:39:08.579 DMR Slot 1, Talker Alias "YG3BRB "
+M: 2025-06-26 14:39:22.578 DMR Slot 1, received network end of voice transmission from YG3BRB to TG 91, 15.0 seconds, 0% packet loss, BER: 0.1%
+M: 2025-06-26 14:39:24.937 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:39:27.133 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:39:51.282 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 26.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:39:58.235 DMR Slot 1, received network voice header from YG3BRB to TG 91
+M: 2025-06-26 14:39:59.383 DMR Slot 1, Talker Alias "YG3BRB "
+M: 2025-06-26 14:40:32.343 DMR Slot 1, received network end of voice transmission from YG3BRB to TG 91, 34.4 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:40:37.340 DMR Slot 1, received network voice header from VU2MYL to TG 91
+M: 2025-06-26 14:40:38.422 DMR Slot 1, received network end of voice transmission from VU2MYL to TG 91, 1.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:40:46.452 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:40:48.672 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:41:04.449 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 17.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:41:06.036 DMR Slot 1, received network voice header from VU2MYL to TG 91
+M: 2025-06-26 14:41:06.094 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:41:06.209 DMR Slot 1, received network end of voice transmission from VU2MYL to TG 91, 0.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:41:12.433 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:41:14.270 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:41:21.601 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 9.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:41:23.440 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:41:24.575 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:42:17.934 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 54.6 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:42:21.908 DMR Slot 1, received network voice header from S51DG to TG 91
+M: 2025-06-26 14:42:23.071 DMR Slot 1, Talker Alias "S51DG Davor"
+M: 2025-06-26 14:42:25.001 DMR Slot 1, received network end of voice transmission from S51DG to TG 91, 3.4 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:42:31.058 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:42:33.519 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:42:40.432 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 9.7 seconds, 14% packet loss, BER: 0.0%
+M: 2025-06-26 14:42:43.055 DMR Slot 1, received network voice header from LX1FD to TG 91
+M: 2025-06-26 14:42:43.253 DMR Slot 1, received network end of voice transmission from LX1FD to TG 91, 0.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:42:44.632 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:42:45.010 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:42:45.787 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:42:56.517 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 12.1 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:03.868 DMR Slot 1, received network voice header from KO6JFF to TG 91
+M: 2025-06-26 14:43:04.696 DMR Slot 1, Talker Alias "KO6JFF Todd"
+M: 2025-06-26 14:43:09.141 DMR Slot 1, received network end of voice transmission from KO6JFF to TG 91, 5.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:13.044 DMR Slot 1, received network voice header from S51DG to TG 91
+M: 2025-06-26 14:43:14.080 DMR Slot 1, Talker Alias "S51DG Davor"
+M: 2025-06-26 14:43:19.239 DMR Slot 1, received network end of voice transmission from S51DG to TG 91, 6.6 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:24.709 DMR Slot 1, received network voice header from VU2NSK to TG 91
+M: 2025-06-26 14:43:27.287 DMR Slot 1, received network end of voice transmission from VU2NSK to TG 91, 2.6 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:27.684 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:43:27.740 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:43:29.197 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:43:32.205 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 4.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:36.809 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:43:37.830 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:43:38.520 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:43:39.250 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:43:39.964 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:43:46.265 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 9.5 seconds, 12% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:51.331 DMR Slot 1, received network voice header from VE3RTU to TG 91
+M: 2025-06-26 14:43:52.136 DMR Slot 1, Talker Alias "VE3RTU Stuart"
+M: 2025-06-26 14:43:52.521 DMR Slot 1, received network end of voice transmission from VE3RTU to TG 91, 1.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:43:55.126 DMR Slot 1, received network voice header from 9W2ESR to TG 91
+M: 2025-06-26 14:43:57.512 DMR Slot 1, received network end of voice transmission from 9W2ESR to TG 91, 2.6 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:44:00.433 DMR Slot 1, received network voice header from EA1BDV to TG 91
+M: 2025-06-26 14:44:02.338 DMR Slot 1, Talker Alias "EA1BDV 2140344"
+M: 2025-06-26 14:44:09.857 DMR Slot 1, received network end of voice transmission from EA1BDV to TG 91, 9.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:44:12.414 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:44:13.182 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:44:24.922 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 12.7 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:44:29.892 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:44:31.744 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:44:37.628 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 8.0 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:44:42.197 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:44:44.082 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:44:56.428 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 14.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:44:58.554 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:45:00.060 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:45:07.775 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 9.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:45:12.914 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:45:13.715 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:45:31.811 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 19.0 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:45:33.470 DMR Slot 1, received network voice header from VU2NSK to TG 91
+M: 2025-06-26 14:45:33.559 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:45:35.722 DMR Slot 1, Talker Alias "VU2NSK DMR ID"
+M: 2025-06-26 14:45:59.527 DMR Slot 1, received RF voice header from W3MSG to TG 91
+M: 2025-06-26 14:46:00.308 DMR Slot 1, Talker Alias "W3MSG"
+M: 2025-06-26 14:46:00.428 DMR Slot 1, received RF end of voice transmission from W3MSG to TG 91, 0.7 seconds, BER: 0.6%, RSSI: -47/-47/-47 dBm
+M: 2025-06-26 14:46:04.927 DMR Slot 1, received RF voice header from W3MSG to TG 91
+M: 2025-06-26 14:46:05.650 DMR Slot 1, Talker Alias "W3MSG"
+M: 2025-06-26 14:46:05.768 DMR Slot 1, received RF end of voice transmission from W3MSG to TG 91, 0.7 seconds, BER: 1.4%, RSSI: -48/-48/-48 dBm
+M: 2025-06-26 14:46:28.993 Mode set to Idle
+I: 2025-06-26 14:46:29.975 Stopped the DMR Id lookup reload thread
+I: 2025-06-26 14:46:29.976 Closing network connections
+M: 2025-06-26 14:46:29.976 DMR, Closing DMR Network
+I: 2025-06-26 14:46:29.976 Stopping protocol handlers
+I: 2025-06-26 14:46:29.976 MMDVMHost-20250620_WPSD has stopped
+M: 2025-06-26 14:46:29.976 Closing the MMDVM
+I: 2025-06-26 14:46:30.092 MMDVMHost-20250620_WPSD exited on receipt of SIGTERM
+I: 2025-06-26 14:46:38.917 This software is for use on amateur radio networks only,
+I: 2025-06-26 14:46:38.918 it is to be used for educational purposes only. Its use on
+I: 2025-06-26 14:46:38.918 commercial networks is strictly prohibited.
+I: 2025-06-26 14:46:38.918 Copyright(C) 2015-2025 by Jonathan Naylor, G4KLX and others
+I: 2025-06-26 14:46:38.918 MMDVMHost-20250620_WPSD is starting
+I: 2025-06-26 14:46:38.918 Built 08:58:42 Jun 20 2025 (GitID #07fba41)
+I: 2025-06-26 14:46:38.918 General Parameters
+I: 2025-06-26 14:46:38.918     Callsign: W3MSG
+I: 2025-06-26 14:46:38.918     Id: 3141966
+I: 2025-06-26 14:46:38.918     Duplex: yes
+I: 2025-06-26 14:46:38.918     Timeout: 240s
+I: 2025-06-26 14:46:38.918     D-Star: disabled
+I: 2025-06-26 14:46:38.918     DMR: enabled
+I: 2025-06-26 14:46:38.918     YSF: disabled
+I: 2025-06-26 14:46:38.918     P25: disabled
+I: 2025-06-26 14:46:38.918     NXDN: disabled
+I: 2025-06-26 14:46:38.918     M17: disabled
+I: 2025-06-26 14:46:38.918     POCSAG: disabled
+I: 2025-06-26 14:46:38.918     FM: disabled
+I: 2025-06-26 14:46:38.918     AX.25: disabled
+I: 2025-06-26 14:46:38.918 Modem Parameters
+I: 2025-06-26 14:46:38.918     Protocol: uart
+I: 2025-06-26 14:46:38.918     UART Port: /dev/ttyAMA0
+I: 2025-06-26 14:46:38.918     UART Speed: 115200
+I: 2025-06-26 14:46:38.918     RX Invert: no
+I: 2025-06-26 14:46:38.918     TX Invert: yes
+I: 2025-06-26 14:46:38.918     PTT Invert: no
+I: 2025-06-26 14:46:38.919     TX Delay: 100ms
+I: 2025-06-26 14:46:38.919     RX Offset: 0Hz
+I: 2025-06-26 14:46:38.919     TX Offset: 0Hz
+I: 2025-06-26 14:46:38.919     RX DC Offset: 0
+I: 2025-06-26 14:46:38.919     TX DC Offset: 0
+I: 2025-06-26 14:46:38.919     RF Level: 100.0%
+I: 2025-06-26 14:46:38.919     DMR Delay: 0 (0.0ms)
+I: 2025-06-26 14:46:38.919     RX Level: 50.0%
+I: 2025-06-26 14:46:38.919     CW Id TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     D-Star TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     DMR TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     YSF TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     P25 TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     NXDN TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     M17 TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     POCSAG TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     FM TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     AX.25 TX Level: 50.0%
+I: 2025-06-26 14:46:38.919     TX Frequency: 438450000Hz (438450000Hz)
+I: 2025-06-26 14:46:38.919     Use COS as Lockout: no
+M: 2025-06-26 14:46:38.920 Opening the MMDVM
+I: 2025-06-26 14:46:40.934 MMDVM protocol version: 1, description: MMDVM_HS_Dual_Hat-v1.6.1 20231115_WPSD 14.7456MHz dual ADF7021 FW by CA6JAU, G4KLX, W0CHP. GitID #7e16099
+I: 2025-06-26 14:46:40.955 Display Parameters
+I: 2025-06-26 14:46:40.956     Type: OLED
+I: 2025-06-26 14:46:41.338 Opening network connections
+I: 2025-06-26 14:46:41.338 DMR Network Parameters
+I: 2025-06-26 14:46:41.338     Type: Gateway
+I: 2025-06-26 14:46:41.338     Remote Address: 127.0.0.1
+I: 2025-06-26 14:46:41.338     Remote Port: 62031
+I: 2025-06-26 14:46:41.338     Local Address: 127.0.0.1
+I: 2025-06-26 14:46:41.338     Local Port: 62032
+I: 2025-06-26 14:46:41.338     Jitter: 360ms
+I: 2025-06-26 14:46:41.338     Slot 1: enabled
+I: 2025-06-26 14:46:41.339     Slot 2: enabled
+I: 2025-06-26 14:46:41.339     Mode Hang: 20s
+I: 2025-06-26 14:46:41.339 Info Parameters
+I: 2025-06-26 14:46:41.339     Callsign: W3MSG
+I: 2025-06-26 14:46:41.339     RX Frequency: 433450000Hz
+I: 2025-06-26 14:46:41.339     TX Frequency: 438450000Hz
+I: 2025-06-26 14:46:41.339     Power: 1W
+M: 2025-06-26 14:46:41.339 DMR, Opening DMR Network
+I: 2025-06-26 14:46:41.340 Opening UDP port on 62032
+I: 2025-06-26 14:46:41.340 CW Id Parameters
+I: 2025-06-26 14:46:41.340     Time: 10 mins
+I: 2025-06-26 14:46:41.340     Callsign: W3MSG
+I: 2025-06-26 14:46:41.340 RSSI
+I: 2025-06-26 14:46:41.340     Mapping File: /usr/local/etc/RSSI.dat
+I: 2025-06-26 14:46:41.340 Loaded 14 RSSI data mapping points from /usr/local/etc/RSSI.dat
+I: 2025-06-26 14:46:41.341 DMR Id Lookups
+I: 2025-06-26 14:46:41.341     File: /usr/local/etc/DMRIds.dat
+I: 2025-06-26 14:46:41.341     Reload: 24 hours
+I: 2025-06-26 14:46:41.341 Loading ID lookup table from /usr/local/etc/DMRIds.dat
+I: 2025-06-26 14:46:47.582 Loaded 288006 IDs to lookup table - /usr/local/etc/DMRIds.dat
+I: 2025-06-26 14:46:47.583 Starting protocol handlers
+I: 2025-06-26 14:46:47.583 Started the DMR Id lookup reload thread
+I: 2025-06-26 14:46:47.583 DMR RF Parameters
+I: 2025-06-26 14:46:47.583     Id: 3141966
+I: 2025-06-26 14:46:47.583     Color Code: 1
+I: 2025-06-26 14:46:47.583     Self Only: no
+I: 2025-06-26 14:46:47.583     Embedded LC Only: no
+I: 2025-06-26 14:46:47.583     Dump Talker Alias Data: yes
+I: 2025-06-26 14:46:47.583     Prefixes: 0
+I: 2025-06-26 14:46:47.583     Source ID White List: 2
+I: 2025-06-26 14:46:47.583     Call Hang: 3s
+I: 2025-06-26 14:46:47.584     TX Hang: 4s
+I: 2025-06-26 14:46:47.584     Mode Hang: 20s
+I: 2025-06-26 14:46:47.584     OVCM: off
+I: 2025-06-26 14:46:47.584     DMR Roaming Beacons Type: off
+I: 2025-06-26 14:46:47.584 Remote Control Parameters
+I: 2025-06-26 14:46:47.584     Address: 127.0.0.1
+I: 2025-06-26 14:46:47.584     Port: 7642
+I: 2025-06-26 14:46:47.584 Opening UDP port on 7642
+I: 2025-06-26 14:46:47.585 Interfaces Info
+I: 2025-06-26 14:46:47.586     IPv4: lo:127.0.0.1
+I: 2025-06-26 14:46:47.587     IPv4: wlan0:192.168.1.230
+I: 2025-06-26 14:46:47.587     IPv6: lo:::1
+I: 2025-06-26 14:46:47.587     IPv6: wlan0:2600:1700:2770:7940::27
+I: 2025-06-26 14:46:47.587     IPv6: wlan0:2600:1700:2770:7940:2468:c00d:fd1c:ecec
+I: 2025-06-26 14:46:47.587     IPv6: wlan0:fe80::a50f:796b:793d:edb0%wlan0
+I: 2025-06-26 14:46:47.587     Default interface is : wlan0
+I: 2025-06-26 14:46:47.587     IP to show: wlan0:192.168.1.230
+M: 2025-06-26 14:46:47.701 Mode set to Idle
+I: 2025-06-26 14:46:47.701 MMDVMHost-20250620_WPSD is running
+M: 2025-06-26 14:46:47.933 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:46:47.939 Downlink Activate received from W3MSG
+M: 2025-06-26 14:46:47.939 Mode set to DMR
+M: 2025-06-26 14:46:47.939 Downlink Activate received from W3MSG
+M: 2025-06-26 14:46:47.978 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 0.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:46:50.271 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:46:51.439 DMR Slot 1, Talker Alias "MM7SVI Neal"
+M: 2025-06-26 14:46:58.356 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 8.4 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:47:03.881 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:47:05.394 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:47:31.950 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 28.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:47:33.715 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:47:33.795 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:47:35.730 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 2.3 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:47:56.456 Mode set to Idle
+M: 2025-06-26 14:49:46.930 Downlink Activate received from W3MSG
+M: 2025-06-26 14:49:46.930 Mode set to DMR
+M: 2025-06-26 14:49:47.447 DMR Slot 1, received RF voice header from W3MSG to TG 91
+M: 2025-06-26 14:49:47.996 DMR Slot 1, Talker Alias "W3MSG"
+M: 2025-06-26 14:49:52.076 DMR Slot 1, received RF end of voice transmission from W3MSG to TG 91, 4.7 seconds, BER: 0.2%, RSSI: -63/-52/-56 dBm
+M: 2025-06-26 14:49:53.284 DMR Slot 1, received network voice header from SP7VCL to TG 91
+M: 2025-06-26 14:49:53.467 DMR Slot 1, received network end of voice transmission from SP7VCL to TG 91, 0.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:49:56.818 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:49:59.101 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:50:35.387 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 38.6 seconds, 1% packet loss, BER: 0.0%
+M: 2025-06-26 14:50:39.642 DMR Slot 1, received network voice header from VU2MYL to TG 91
+M: 2025-06-26 14:50:42.256 DMR Slot 1, Talker Alias "VU2MYL S R T "
+M: 2025-06-26 14:51:04.363 DMR Slot 1, received network end of voice transmission from VU2MYL to TG 91, 24.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:51:08.443 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:51:10.698 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:51:31.671 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 23.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:51:33.308 DMR Slot 1, received network voice header from M0CCA to TG 91
+M: 2025-06-26 14:51:42.004 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:51:42.726 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:51:43.455 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:51:44.170 DMR Slot 1, Talker Alias "M0CCA Plymouth, UK % descri"
+M: 2025-06-26 14:52:01.661 DMR Slot 1, received network end of voice transmission from M0CCA to TG 91, 28.9 seconds, 7% packet loss, BER: 0.0%
+M: 2025-06-26 14:52:03.068 DMR Slot 1, received network voice header from ER1CW to TG 91
+M: 2025-06-26 14:52:03.871 DMR Slot 1, Talker Alias "ER1CW Victor"
+M: 2025-06-26 14:52:17.334 DMR Slot 1, received network end of voice transmission from ER1CW to TG 91, 14.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:52:22.886 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:52:24.427 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:52:30.361 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 7.7 seconds, 14% packet loss, BER: 0.0%
+M: 2025-06-26 14:52:32.552 DMR Slot 1, received network voice header from ER1CW to TG 91
+M: 2025-06-26 14:52:33.379 DMR Slot 1, Talker Alias "ER1CW Victor"
+M: 2025-06-26 14:53:04.461 DMR Slot 1, received network end of voice transmission from ER1CW to TG 91, 32.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:53:10.455 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:53:11.959 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:53:55.276 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 44.5 seconds, 5% packet loss, BER: 0.0%
+M: 2025-06-26 14:53:56.838 DMR Slot 1, received network voice header from ER1CW to TG 91
+M: 2025-06-26 14:53:58.715 DMR Slot 1, Talker Alias "ER1CW Victor"
+M: 2025-06-26 14:54:26.561 DMR Slot 1, received network end of voice transmission from ER1CW to TG 91, 30.0 seconds, 2% packet loss, BER: 0.0%
+M: 2025-06-26 14:54:38.015 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:54:38.787 DMR Slot 1, Talker Alias "MM7SVI Neal"
+M: 2025-06-26 14:54:45.262 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 7.3 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:54:49.141 DMR Slot 1, received network voice header from BH3HVE to TG 91
+M: 2025-06-26 14:54:50.299 DMR Slot 1, Talker Alias "BH3HVE Yu"
+M: 2025-06-26 14:54:51.567 DMR Slot 1, received network end of voice transmission from BH3HVE to TG 91, 2.6 seconds, 0% packet loss, BER: 0.1%
+M: 2025-06-26 14:55:01.163 DMR Slot 1, received network voice header from A46BCW to TG 91
+M: 2025-06-26 14:55:01.958 DMR Slot 1, Talker Alias "A46BCW Ahmed"
+M: 2025-06-26 14:55:09.724 DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 8.7 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:55:11.384 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:55:11.426 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:55:12.150 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:55:12.871 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:55:28.109 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 17.0 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:55:31.483 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:55:32.612 DMR Slot 1, Talker Alias "MM7SVI Neal"
+M: 2025-06-26 14:55:53.996 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 22.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:55:59.944 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:56:01.477 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:56:33.079 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 33.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:56:36.535 DMR Slot 1, received network voice header from MM7SVI to TG 91
+M: 2025-06-26 14:56:37.329 DMR Slot 1, Talker Alias "MM7SVI Neal"
+M: 2025-06-26 14:56:50.063 DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 13.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:56:53.582 DMR Slot 1, received network voice header from PU2XUP to TG 91
+M: 2025-06-26 14:56:54.938 DMR Slot 1, Talker Alias "PU2XUP Miguel"
+M: 2025-06-26 14:57:06.565 DMR Slot 1, received network end of voice transmission from PU2XUP to TG 91, 13.1 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:57:12.110 DMR Slot 1, received network voice header from N0POO to TG 91
+M: 2025-06-26 14:57:12.513 DMR Slot 1, received network end of voice transmission from N0POO to TG 91, 0.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:57:13.988 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:57:14.377 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:57:15.818 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:57:49.200 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 35.4 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:57:52.524 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:57:54.014 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:58:07.109 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 14.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:58:11.330 DMR Slot 1, received network voice header from PU2XUP to TG 91
+M: 2025-06-26 14:59:07.313 DMR Slot 1, received network end of voice transmission from PU2XUP to TG 91, 56.3 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:59:12.766 DMR Slot 1, received network voice header from 9M2SFL to TG 91
+M: 2025-06-26 14:59:14.456 DMR Slot 1, Talker Alias "9M2SFL Saiful Azhar"
+M: 2025-06-26 14:59:36.919 DMR Slot 1, received network end of voice transmission from 9M2SFL to TG 91, 24.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:59:39.684 DMR Slot 1, received network voice header from PU2XUP to TG 91
+M: 2025-06-26 14:59:41.013 DMR Slot 1, Talker Alias "PU2XUP Miguel"
+M: 2025-06-26 14:59:41.858 DMR Slot 1, received network end of voice transmission from PU2XUP to TG 91, 2.3 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:59:43.324 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 14:59:43.384 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:59:44.108 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:59:44.881 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 14:59:45.595 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 14:59:46.432 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 3.2 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 14:59:47.906 DMR Slot 1, received network voice header from ER1CW to TG 91
+M: 2025-06-26 15:00:00.272 DMR Slot 1, received network end of voice transmission from ER1CW to TG 91, 12.7 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:00:02.702 DMR Slot 1, received network voice header from PU2XUP to TG 91
+M: 2025-06-26 15:00:03.238 DMR Slot 1, received network end of voice transmission from PU2XUP to TG 91, 0.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:00:07.612 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 15:00:10.188 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 15:00:59.575 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 51.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:01:03.722 DMR Slot 1, received network voice header from N0GWM to TG 91
+M: 2025-06-26 15:01:06.333 DMR Slot 1, Talker Alias "N0GWM Leon E"
+M: 2025-06-26 15:01:10.111 DMR Slot 1, received network end of voice transmission from N0GWM to TG 91, 6.6 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:01:13.172 DMR Slot 1, received network voice header from PU2XUP to TG 91
+M: 2025-06-26 15:02:06.825 DMR Slot 1, received network end of voice transmission from PU2XUP to TG 91, 53.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:02:09.084 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 15:02:11.635 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 15:02:41.001 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 32.1 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:02:44.347 DMR Slot 1, received network voice header from N0GWM to TG 91
+M: 2025-06-26 15:02:46.969 DMR Slot 1, Talker Alias "N0GWM Leon E"
+M: 2025-06-26 15:02:50.129 DMR Slot 1, received network end of voice transmission from N0GWM to TG 91, 5.9 seconds, 9% packet loss, BER: 0.0%
+M: 2025-06-26 15:02:51.105 DMR Slot 1, received network voice header from K4QO to TG 91
+M: 2025-06-26 15:02:51.427 DMR Slot 1, received network end of voice transmission from K4QO to TG 91, 0.5 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:02:51.670 DMR Slot 1, received network voice header from 9W2YD to TG 91
+M: 2025-06-26 15:02:52.102 DMR Slot 1, Talker Alias ""
+M: 2025-06-26 15:02:52.814 DMR Slot 1, Talker Alias "9W2YD Yusoff"
+M: 2025-06-26 15:03:00.146 DMR Slot 1, received network end of voice transmission from 9W2YD to TG 91, 8.8 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:03:02.839 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 15:03:05.073 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 15:03:10.684 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 7.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:03:14.712 DMR Slot 1, received network voice header from 9W2YD to TG 91
+M: 2025-06-26 15:03:15.623 DMR Slot 1, Talker Alias "9W2YD Yusoff"
+M: 2025-06-26 15:03:43.483 DMR Slot 1, received network end of voice transmission from 9W2YD to TG 91, 28.9 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:03:48.483 DMR Slot 1, received network voice header from S21JSR to TG 91
+M: 2025-06-26 15:03:50.716 DMR Slot 1, Talker Alias "S21JSR Abu Saleh Md. Ju"
+M: 2025-06-26 15:04:24.065 DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 35.7 seconds, 0% packet loss, BER: 0.0%
+M: 2025-06-26 15:04:28.507 DMR Slot 1, received network voice header from 9W2YD to TG 91
+M: 2025-06-26 15:04:29.318 DMR Slot 1, Talker Alias "9W2YD Yusoff"

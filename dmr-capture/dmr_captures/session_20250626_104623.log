@@ -1,0 +1,31 @@
+=== DMR FULL SESSION CAPTURE ===
+Start time: Thu 26 Jun 10:46:23 EDT 2025
+Capture file: /home/pi-star/dmr_captures/full_session_20250626_104623.pcap
+
+[1/4] Starting packet capture...
+Packet capture started (PID: 28357)
+[2/4] Stopping MMDVM_Host...
+[3/4] Starting MMDVM_Host and capturing session...
+MMDVM_Host restarted, capturing for 10 minutes...
+Minute 1/10 - Thu 26 Jun 10:46:39 EDT 2025
+Minute 2/10 - Thu 26 Jun 10:47:39 EDT 2025
+Minute 3/10 - Thu 26 Jun 10:48:39 EDT 2025
+Minute 4/10 - Thu 26 Jun 10:49:39 EDT 2025
+Minute 5/10 - Thu 26 Jun 10:50:39 EDT 2025
+Minute 6/10 - Thu 26 Jun 10:51:39 EDT 2025
+Minute 7/10 - Thu 26 Jun 10:52:39 EDT 2025
+Minute 8/10 - Thu 26 Jun 10:53:39 EDT 2025
+Minute 9/10 - Thu 26 Jun 10:54:39 EDT 2025
+Minute 10/10 - Thu 26 Jun 10:55:39 EDT 2025
+[4/4] Stopping capture...
+
+=== CAPTURE COMPLETE ===
+End time: Thu 26 Jun 10:56:41 EDT 2025
+File: /home/pi-star/dmr_captures/full_session_20250626_104623.pcap
+Size: 741K
+
+Packets captured: 6704
+
+Analysis commands:
+  tcpdump -r /home/pi-star/dmr_captures/full_session_20250626_104623.pcap
+  tcpdump -r /home/pi-star/dmr_captures/full_session_20250626_104623.pcap -tttt

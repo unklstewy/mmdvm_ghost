@@ -1,0 +1,146 @@
+DMR PACKET AND LOG CORRELATION ANALYSIS
+=======================================
+Generated: Thu 26 Jun 11:01:45 EDT 2025
+PCAP: /home/pi-star/dmr_captures/full_session_20250626_104623.pcap
+LOG:  /var/log/pi-star/MMDVM-2025-06-26.log
+
+PACKET CAPTURE ANALYSIS
+-----------------------
+Total Packets: 6704
+File Size: 741K
+First Packet: 2025-06-26 10:46:23.661524
+Last Packet: 2025-06-26 10:56:38.962844
+
+PACKET FLOW DIRECTION
+---------------------
+Network → MMDVM (port 62031→62032): 6560 packets
+MMDVM → Network (port 62032→62031): 144 packets
+
+VOICE SESSION SUMMARY
+---------------------
+Callsign     TG    Duration  Loss%  BER%   Start Time
+----------------------------------------------------
+W3MSG        91    0.4              1.2    14:32:13.132
+S21JSR       91    19.9      0      0.0    14:32:33.668
+A46BCW       91    34.4      0      0.0    14:33:11.400
+ON3YDM       91    2.2       50     0.4    14:33:14.639
+S21JSR       91    11.7      0      0.0    14:33:26.566
+A46BCW       91    16.1      0      0.0    14:33:54.802
+MM7SVI       91    7.7       0      0.1    14:34:05.238
+A46BCW       91    40.9      0      0.0    14:34:48.064
+MM7SVI       91    15.2      0      0.0    14:35:05.785
+A46BCW       91    13.6      0      0.0    14:35:25.199
+NK7A         91    2.1       0      0.0    14:35:34.077
+YG3BRB       91    8.3       0      0.0    14:35:43.823
+A46BCW       91    50.8      0      0.0    14:36:37.448
+YG3BRB       91    34.1      2      0.0    14:37:18.283
+A46BCW       91    53.0      0      0.0    14:38:14.940
+YG3BRB       91    16.3      6      0.1    14:38:36.605
+S21JSR       91    8.4       0      0.0    14:38:49.634
+A46BCW       91    5.0       0      0.0    14:38:56.095
+S21JSR       91    5.0       0      0.0    14:39:06.276
+YG3BRB       91    15.0      0      0.1    14:39:22.578
+S21JSR       91    26.5      0      0.0    14:39:51.282
+YG3BRB       91    34.4      0      0.0    14:40:32.343
+VU2MYL       91    1.2       0      0.0    14:40:38.422
+S21JSR       91    17.8      0      0.0    14:41:04.449
+VU2MYL       91    0.5       0      0.0    14:41:06.209
+9M2SFL       91    9.5       0      0.0    14:41:21.601
+A46BCW       91    54.6      0      0.0    14:42:17.934
+S51DG        91    3.4       0      0.0    14:42:25.001
+S21JSR       91    9.7       14     0.0    14:42:40.432
+LX1FD        91    0.5       0      0.0    14:42:43.253
+A46BCW       91    12.1      0      0.0    14:42:56.517
+KO6JFF       91    5.5       0      0.0    14:43:09.141
+S51DG        91    6.6       0      0.0    14:43:19.239
+VU2NSK       91    2.6       0      0.0    14:43:27.287
+9M2SFL       91    4.8       0      0.0    14:43:32.205
+S21JSR       91    9.5       12     0.0    14:43:46.265
+VE3RTU       91    1.2       0      0.0    14:43:52.521
+9W2ESR       91    2.6       0      0.0    14:43:57.512
+EA1BDV       91    9.5       0      0.0    14:44:09.857
+A46BCW       91    12.7      0      0.0    14:44:24.922
+9M2SFL       91    8.0       0      0.0    14:44:37.628
+9M2SFL       91    14.5      0      0.0    14:44:56.428
+9M2SFL       91    9.5       0      0.0    14:45:07.775
+A46BCW       91    19.0      0      0.0    14:45:31.811
+W3MSG        91    0.7              0.6    14:46:00.428
+W3MSG        91    0.7              1.4    14:46:05.768
+S21JSR       91    0.9       0      0.0    14:46:47.978
+MM7SVI       91    8.4       0      0.0    14:46:58.356
+9M2SFL       91    28.2      0      0.0    14:47:31.950
+MM7SVI       91    2.3       0      0.0    14:47:35.730
+W3MSG        91    4.7              0.2    14:49:52.076
+SP7VCL       91    0.5       0      0.0    14:49:53.467
+S21JSR       91    38.6      1      0.0    14:50:35.387
+VU2MYL       91    24.8      0      0.0    14:51:04.363
+S21JSR       91    23.2      0      0.0    14:51:31.671
+M0CCA        91    28.9      7      0.0    14:52:01.661
+ER1CW        91    14.5      0      0.0    14:52:17.334
+9M2SFL       91    7.7       14     0.0    14:52:30.361
+ER1CW        91    32.2      0      0.0    14:53:04.461
+9M2SFL       91    44.5      5      0.0    14:53:55.276
+ER1CW        91    30.0      2      0.0    14:54:26.561
+MM7SVI       91    7.3       0      0.0    14:54:45.262
+BH3HVE       91    2.6       0      0.1    14:54:51.567
+A46BCW       91    8.7       0      0.0    14:55:09.724
+9M2SFL       91    17.0      0      0.0    14:55:28.109
+MM7SVI       91    22.8      0      0.0    14:55:53.996
+9M2SFL       91    33.2      0      0.0    14:56:33.079
+MM7SVI       91    13.8      0      0.0    14:56:50.063
+PU2XUP       91    13.1      0      0.0    14:57:06.565
+N0POO        91    0.5       0      0.0    14:57:12.513
+9M2SFL       91    35.4      0      0.0    14:57:49.200
+9M2SFL       91    14.9      0      0.0    14:58:07.109
+PU2XUP       91    56.3      0      0.0    14:59:07.313
+9M2SFL       91    24.2      0      0.0    14:59:36.919
+PU2XUP       91    2.3       0      0.0    14:59:41.858
+S21JSR       91    3.2       0      0.0    14:59:46.432
+ER1CW        91    12.7      0      0.0    15:00:00.272
+PU2XUP       91    0.8       0      0.0    15:00:03.238
+S21JSR       91    51.9      0      0.0    15:00:59.575
+N0GWM        91    6.6       0      0.0    15:01:10.111
+
+TIMELINE CORRELATION (Voice Events + Packet Activity)
+=====================================================
+[14:32:12.904] DMR Slot 1, received RF voice header from W3MSG to TG 91
+
+[14:32:13.132] DMR Slot 1, received RF end of voice transmission from W3MSG to TG 91, 0.4 seconds, BER: 1.2%, RSSI: -57/-55/-56 dBm
+
+[14:32:13.828] DMR Slot 1, received network voice header from S21JSR to TG 91
+
+[14:32:33.668] DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 19.9 seconds, 0% packet loss, BER: 0.0%
+
+[14:32:37.106] DMR Slot 1, received network voice header from A46BCW to TG 91
+
+[14:33:11.400] DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 34.4 seconds, 0% packet loss, BER: 0.0%
+
+[14:33:12.736] DMR Slot 1, received network voice header from ON3YDM to TG 91
+
+[14:33:14.639] DMR Slot 1, received network end of voice transmission from ON3YDM to TG 91, 2.2 seconds, 50% packet loss, BER: 0.4%
+
+[14:33:14.980] DMR Slot 1, received network voice header from S21JSR to TG 91
+
+[14:33:26.566] DMR Slot 1, received network end of voice transmission from S21JSR to TG 91, 11.7 seconds, 0% packet loss, BER: 0.0%
+
+[14:33:38.827] DMR Slot 1, received network voice header from A46BCW to TG 91
+
+[14:33:54.802] DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 16.1 seconds, 0% packet loss, BER: 0.0%
+
+[14:33:57.833] DMR Slot 1, received network voice header from MM7SVI to TG 91
+
+[14:34:05.238] DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 7.7 seconds, 0% packet loss, BER: 0.1%
+
+[14:34:07.331] DMR Slot 1, received network voice header from A46BCW to TG 91
+
+[14:34:48.064] DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 40.9 seconds, 0% packet loss, BER: 0.0%
+
+[14:34:50.849] DMR Slot 1, received network voice header from MM7SVI to TG 91
+
+[14:35:05.785] DMR Slot 1, received network end of voice transmission from MM7SVI to TG 91, 15.2 seconds, 0% packet loss, BER: 0.0%
+
+[14:35:11.793] DMR Slot 1, received network voice header from A46BCW to TG 91
+
+[14:35:25.199] DMR Slot 1, received network end of voice transmission from A46BCW to TG 91, 13.6 seconds, 0% packet loss, BER: 0.0%
+
+ANALYSIS COMPLETE
